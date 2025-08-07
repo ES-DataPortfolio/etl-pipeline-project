@@ -5,6 +5,5 @@
 __pycache__/
 *.pyc
 
-# Ignore data files (falls sensible Daten)
-# data/*.csv
-# data/*.xlsx
+# Ignore data files (in case of sensitive data)
+# data/zara.csv
