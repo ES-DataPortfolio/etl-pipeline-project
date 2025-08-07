@@ -4,7 +4,7 @@ Work in Progress: This project is actively evolving. More ETL steps and visualiz
 
 This project demonstrates a complete **ETL (Extract, Transform, Load)** workflow using **Python** and **SQL** to process data from CSV sources:
 
-- **Extract:** Load CSV data
+- **Extract:** Load CSV data into dataframe
 - **Transform:** Clean, validate, and standardize data for analytics
 - **Load:** Prepare data for reporting and dashboarding in a compliant and efficient way
 
@@ -12,16 +12,17 @@ This project demonstrates a complete **ETL (Extract, Transform, Load)** workflow
 
 ### Key Features
 (In Progress)
-- Modular and reproducible **ETL pipeline** for raw → processed data
+- Modular (extract -> transform -> validate -> load) and reproducible **ETL pipeline** for raw → processed data
 - Includes **basic data validation** (duplicates, nulls, type checks)
 - **Easily extensible** for cloud storage or warehouse integration
 - All demo data is **anonymized and MIT-licensed** for public use
+- ...
 
 ---
 
 ### Tech Stack
 (In Progress)
-- **Python** (...)
+- **Python** (Pandas, Pathlib...)
 - **SQL** (for transformations & validation)
 - **Git & Virtual Environments** for reproducibility
 - ...
