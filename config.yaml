@@ -1,0 +1,11 @@
+paths:
+  raw_data: "data/raw/zara.csv"
+  processed_data: "data/processed/zara_processed.csv"
+  log_file: "etl_pipeline_project/logs/etl.log"
+
+etl:
+  fill_numeric_with: 0
+  fill_text_with: "Unknown"
+  date_format: "%Y-%m-%d"
+  drop_na_columns: ["product_id", "sales_volume", "price"]
+  ## Logging implementieren inkl. potenzieller log-msgs in verschiedenen Skripten
